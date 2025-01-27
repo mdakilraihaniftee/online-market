@@ -32,10 +32,12 @@ appsettings.json: Configuration settings for the application.
    git clone https://github.com/your-repo/online-market.git
 2. Open the project in Visual Studio.
 3. Restore dependencies:
+   ```bash
    dotnet restore
 4. Build and run the project:
+   ```bash
    dotnet run
-5. Access the app in your browser at https://localhost:5001 or http://localhost:5000.
+7. Access the app in your browser at https://localhost:5001 or http://localhost:5000.
 
 ## Prerequisites
 .NET Core SDK 3.1 or later
@@ -46,6 +48,6 @@ Development environment: Set in launchSettings.json under the ASPNETCORE_ENVIRON
 Routing: Configured in Startup.cs to use the Home controller and Index action by default.
 
 ##Technologies Used
-ASP.NET Core MVC
-Bootstrap (CSS framework)
-jQuery (JavaScript library)
+- ASP.NET Core MVC
+- Bootstrap (CSS framework)
+- jQuery (JavaScript library)
